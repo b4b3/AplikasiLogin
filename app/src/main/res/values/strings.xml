@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Panda</string>
+    <string name="pos">POS</string>
+    <string name="profil">PROFIL</string>
+    <string name="status_wp">STATUS WP</string>
+    <string name="penerimaan">PENERIMAAN</string>
+    <string name="about">ABOUT</string>
+    <string name="kosong">..</string>
+</resources>

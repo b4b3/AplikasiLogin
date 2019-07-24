@@ -1,0 +1,85 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.constraint.ConstraintLayout>
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nama"
+        android:id="@+id/textNama"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="tanggal"
+        android:id="@+id/textPrice"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Alamat"
+        android:id="@+id/textAlamat"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textNama"
+        android:textColor="#666"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Kecamatan"
+        android:id="@+id/textKecamatan"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textAlamat"
+        android:textColor="#666"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Kota"
+        android:id="@+id/textKota"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textKecamatan"
+        android:textColor="#666"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Keterangan"
+        android:id="@+id/textKeterangan"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textKota"
+        android:textColor="#666"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Penerima"
+        android:id="@+id/textPenerima"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textKeterangan"
+        android:textColor="#666"/>
+
+</RelativeLayout>
